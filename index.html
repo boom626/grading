@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Grading System</title>
+    <style>
+        p {
+            text-align: center;
+            font-size: 36px;
+            padding: 30px;
+            background-color:#BEC7B4;
+        }
+
+        .center {
+            margin: auto;
+     
+            padding: 10px;
+        }
+        #f1{
+            color:#8DA290;
+
+        }
+    </style>
+</head>
+
+<body style="background-color: #FCF1D8">
+    <p><span><b>Welcome to Grading System</b></span></p>
+    <form id="f1" action="showDB.php">
+            Student ID   :  <input type="text" name="id"><button>Click</button><br>
+            
+    </form>
+    <form id="f1" action="insert.php" method="GET">
+            Student ID   :  <input type="text" name="id"><br>
+            Score Midterm:  <input type="number" name="mid"><br>
+            Score Final  :  <input type="number" name="final"><br>
+            <input type="submit" value="Click to Submit">
+            
+    </form>
+
+    <form id="f1" action="delete.php">
+            Student ID   :<input type="text" name="id"><input type="submit" value="Delete"><br>
+            
+    </form>
+</body>
+
+</html>
